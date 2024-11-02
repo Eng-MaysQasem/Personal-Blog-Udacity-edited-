@@ -1,0 +1,34 @@
+/* Tablet screens */
+@media (max-width: 1024px) {
+    #projects {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+    #projects {
+        grid-template-columns: 1fr;
+    }
+
+    /* Stack header items vertically on mobile */
+    header {
+        flex-direction: column;
+    }
+
+    /* Center nav links */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Center the header title */
+    header h1 {
+        text-align: center;
+    }
+
+    /* Center content in contact section */
+    .contact-links {
+        align-items: center;
+    }
+}

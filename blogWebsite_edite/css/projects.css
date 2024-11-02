@@ -1,0 +1,50 @@
+/* Projects section styling */
+#projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  padding: 2rem;
+  grid-area: main;
+}
+
+/* Project card styling */
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.project-card figcaption {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  color: #4da3e6;
+}
+
+.project-card p {
+  color: #333333;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #80c1ff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-top: auto;
+}
+
+.project-card a:hover {
+  background-color: #4da3e6;
+}
